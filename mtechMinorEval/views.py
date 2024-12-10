@@ -280,7 +280,7 @@ def adminLogin(request):
     if request.method == 'POST':
         recaptcha_response = request.POST.get('g-recaptcha-response')
         data = {
-            'secret': '6LeenVEqAAAAAC01Gp9B4M72_8jRXdgFeWjeL8EQ',  
+            'secret': '6Lc8t30qAAAAADHHyH2pCsj_SATu9ncCAyZtlX3K',  
             'response': recaptcha_response
         }
         try:
